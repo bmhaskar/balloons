@@ -6,8 +6,8 @@ import {Game} from "./Game.js";
 import {useGamepadEvents} from "@beskar-labs/use-gamepad-events";
 
 
-const restartGame = (ballons, gameRef) => {
-    if(ballons.length == 0) {
+const restartGame = (balloons, gameRef) => {
+    if(balloons.length == 0) {
         gameRef.current =  new Game();
         gameRef.current.initGame();
         gameRef.current.startGame();
