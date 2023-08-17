@@ -1,8 +1,27 @@
-# React + Vite
+# Game to burst balloons
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a simple game to burst balloons. The game is built using React. The game is responsive and can be played on mobile devices as well.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The game supports microsoft adaptive controller. 
+'A' is mapped to burst left balloon
+'B' is mapped to burst right balloon
+
+## How to play
+
+1. Click on the play button to start the game
+2. Click on the balloons to burst them
+3. Refresh to restart the game once both balloons are burst
+
+## How to install 
+``
+yarn install
+``
+
+## How to run
+``
+yarn dev
+``
+
+ 
